@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PT 세션 타이머 개인정보처리방침</title>
+<meta name="description" content="PT 세션 타이머 앱은 개인정보를 수집하거나 서버로 전송하지 않습니다.">
+<style>
+  :root { --bg: #ffffff; --fg: #1a1d23; --muted: #5b6270; --line: #e3e5ea; --accent: #b86e00; color-scheme: light; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #0d0f13; --fg: #eceef2; --muted: #9aa0ad; --line: #2b303a; --accent: #f5a524; color-scheme: dark; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.7 system-ui, "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 40px max(20px, env(safe-area-inset-left)) 64px max(20px, env(safe-area-inset-right)); }
+  h1 { font-size: 28px; line-height: 1.3; margin: 0 0 4px; text-wrap: balance; }
+  h2 { font-size: 18px; margin: 32px 0 8px; padding-top: 16px; border-top: 1px solid var(--line); }
+  p, li { color: var(--muted); }
+  strong { color: var(--fg); }
+  .meta { font-size: 14px; color: var(--muted); }
+  .summary { margin: 24px 0 0; padding: 16px 20px; border-left: 4px solid var(--accent); background: color-mix(in srgb, var(--accent) 8%, transparent); }
+  .summary p { margin: 0; color: var(--fg); }
+  table { width: 100%; border-collapse: collapse; font-size: 15px; margin-top: 8px; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--fg); font-weight: 600; }
+  td { color: var(--muted); }
+  .wrap { overflow-x: auto; }
+</style>
+</head>
+<body>
+<main>
+  <h1>PT 세션 타이머 개인정보처리방침</h1>
+  <p class="meta">시행일: 2026년 11월 6일</p>
+
+  <div class="summary">
+    <p><strong>요약:</strong> PT 세션 타이머(이하 ‘앱’)는 개인정보를 수집하지 않으며, 입력한 데이터를 서버나 제3자에게 전송하지 않습니다. 모든 기록은 사용자 기기 안에만 저장됩니다.</p>
+  </div>
+
+  <h2>1. 수집하는 개인정보</h2>
+  <p>앱은 이름, 이메일, 전화번호, 계정, 위치, 광고 ID, 기기 식별자 등 어떠한 개인정보도 수집하지 않습니다. 앱에는 회원가입·로그인 기능이 없고, 개발자는 앱과 통신하는 서버를 운영하지 않습니다. 광고 SDK와 분석(애널리틱스) 도구도 포함되어 있지 않습니다.</p>
+
+  <h2>2. 기기 안에만 저장되는 정보</h2>
+  <p>앱 기능을 제공하기 위해 아래 정보가 사용자 기기의 앱 전용 저장소(WebView localStorage)에 저장됩니다. 이 정보는 기기 밖으로 전송되지 않으며 개발자도 볼 수 없습니다.</p>
+  <div class="wrap">
+    <table>
+      <thead><tr><th>항목</th><th>용도</th></tr></thead>
+      <tbody>
+        <tr><td>운동 종목, 무게(kg), 반복 횟수, 세트 기록 시각</td><td>당일 세트 기록과 총 세트·총 볼륨 표시</td></tr>
+        <tr><td>1RM 계산기 입력값(무게, 횟수)</td><td>추정 1RM과 강도별 훈련 무게 계산</td></tr>
+        <tr><td>체중, 활동 수준, 목표</td><td>권장 칼로리·단백질·탄수화물·지방 계산</td></tr>
+        <tr><td>휴식 시간, 비프음·진동·자동 시작 설정</td><td>사용자가 고른 설정 유지</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>3. 사용하는 기기 기능과 권한</h2>
+  <ul>
+    <li><strong>진동(VIBRATE)</strong>: 휴식 타이머 종료와 세트 기록 시 진동 알림에만 사용합니다.</li>
+    <li><strong>소리</strong>: 앱이 기기에서 직접 합성한 비프음을 재생합니다. 마이크는 사용하지 않습니다.</li>
+    <li><strong>인터넷(INTERNET)</strong>: 앱 화면을 표시하는 Android WebView 구성 요소에 필요한 시스템 권한입니다. 앱의 모든 화면과 글꼴은 설치 파일 안에 들어 있으며, 앱은 외부 서버와 통신하지 않습니다.</li>
+    <li>기기 백업(Google 드라이브 자동 백업)에도 앱 데이터가 포함되지 않도록 설정되어 있습니다.</li>
+  </ul>
+
+  <h2>4. 보관 기간과 삭제 방법</h2>
+  <p>세트 기록은 날짜가 바뀌면 새 기록으로 대체됩니다. 앱 상단의 방패 아이콘 → ‘모든 데이터 삭제’를 누르거나, 기기 설정에서 앱 데이터를 삭제하거나, 앱을 제거하면 저장된 정보가 모두 지워집니다.</p>
+
+  <h2>5. 제3자 제공 및 국외 이전</h2>
+  <p>수집하는 개인정보가 없으므로 제3자 제공, 처리 위탁, 국외 이전이 없습니다.</p>
+
+  <h2>6. 아동의 개인정보</h2>
+  <p>앱은 만 14세 미만 아동을 대상으로 하지 않으며, 아동의 개인정보를 수집하지 않습니다.</p>
+
+  <h2>7. 건강 정보 고지</h2>
+  <p>앱이 보여주는 1RM과 칼로리·영양소 수치는 일반 공식(Epley 공식, 체중 기반 추정)으로 계산한 참고값이며 의료 진단이나 치료를 대신하지 않습니다.</p>
+
+  <h2>8. 방침 변경</h2>
+  <p>이 방침이 바뀌면 이 페이지에 변경 내용과 새 시행일을 게시합니다.</p>
+
+  <h2>9. 문의</h2>
+  <p>개발자: Terry<br>이메일: terrydev1011@gmail.com</p>
+</main>
+</body>
+</html>
